@@ -70,13 +70,14 @@ onMounted(() => {
     <section class="relative pt-28 pb-16 sm:pt-36 sm:pb-24">
       <div class="pointer-events-none absolute -right-24 top-16 size-80 rounded-full bg-accent/40 blur-3xl sm:size-[28rem]" />
       <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1.1fr_1fr]">
-        <div>
+        <div class="min-w-0">
           <p class="inline-flex items-center gap-2 rounded-full border border-black/15 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wider">
             <span class="size-2 rounded-full bg-green-500" /> Rental Mobil di {{ site.city }}
           </p>
-          <h1 class="mt-5 font-display text-4xl font-extrabold leading-[1.1] sm:text-6xl">
+          <h1 class="mt-5 font-display text-4xl font-extrabold leading-[1.1] [overflow-wrap:anywhere] sm:text-6xl">
             Jalan bareng Kojo,
-            <span class="squiggle">#kojonyarentalbandung</span>
+            <!-- Hashtag = satu kata panjang, jadi ukurannya ikut lebar layar supaya muat satu baris -->
+            <span class="squiggle mt-2 inline-block text-[clamp(1.25rem,6.8vw,2.6rem)]">#kojonyarentalbandung</span>
           </h1>
           <p class="mt-6 max-w-lg text-lg text-black/65">
             Sewa mobil matic lengkap dengan driver. Unit bersih, driver berpengalaman, dan booking cukup lewat WhatsApp.
