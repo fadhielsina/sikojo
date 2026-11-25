@@ -75,8 +75,8 @@ onMounted(() => {
             <span class="size-2 rounded-full bg-green-500" /> Rental Mobil di {{ site.city }}
           </p>
           <h1 class="mt-5 font-display text-4xl font-extrabold leading-[1.1] sm:text-6xl">
-            Jalan-jalan di Bandung,
-            <span class="squiggle">pakai mobil Sikojo.</span>
+            Jalan bareng Kojo,
+            <span class="squiggle">#kojonyarentalbandung</span>
           </h1>
           <p class="mt-6 max-w-lg text-lg text-black/65">
             Sewa mobil matic lengkap dengan driver. Unit bersih, driver berpengalaman, dan booking cukup lewat WhatsApp.
